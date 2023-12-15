@@ -18,7 +18,7 @@ body {
   z-index: -1;
   min-width:100%;
   min-height:100%;
-}*/
+}
 
 #video-container {
     position: absolute;
@@ -30,12 +30,12 @@ body {
     width: auto;
     height: auto;
     z-index: -1;
-}
+}*/
 
 body::before {
   content: "";
   position: fixed;
- /*background: #040404 url("../img/bg.jpg") top right no-repeat;*/
+ background: #040404 url("../img/bg.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
